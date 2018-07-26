@@ -1,0 +1,14 @@
+spring:
+  main:
+    banner-mode: 'off'
+server:
+  port: 8080
+camel:
+  springboot:
+    name: CamelAMQSamples
+amq:
+  url: "amqp://localhost:61616"
+  username: "admin"
+  password: "admin"
+  queue: "myqueue"
+  topic: "mytopic"
